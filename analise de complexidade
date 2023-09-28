@@ -1,1 +1,13 @@
+Para a Funcionalidade de encotrar a faixa de preço:
+
+Big O (O(n)): A complexidade deste algoritmo é linear, onde “n” representa o número de laptops. Isso ocorre porque o algoritmo percorre cada linha da lista uma vez, verificando se o preço está dentro da faixa especificada. Na pior das hipóteses, pode ser necessário percorrer todas as linhas da lista.
+Big Theta (Θ(n)): A complexidade é linear porque, tanto no melhor quanto no pior caso, o algoritmo sempre percorre todas as linhas da lista.
+Big Omega (Ω(1)): Na melhor das hipóteses, se o primeiro laptop da lista estiver dentro da faixa de preço especificada, o algoritmo terminará imediatamente, o que seria uma complexidade constante. Contudo, isto é improvável na prática, e os casos médios e piores têm complexidade linear. 
+
+
+Para Funcionadlidade de encontrar com especificações:
+
+Big O (O(n)): A complexidade deste algoritmo é linear, onde “n” representa o número de laptops. Isso ocorre porque o algoritmo percorre cada linha da lista uma vez, verificando as especificações de RAM e armazenamento.
+Big Theta (Θ(n)): A complexidade é linear porque, tanto no melhor quanto no pior caso, o algoritmo sempre percorre todas as linhas da lista.
+Big Omega (Ω(1)): Na melhor das hipóteses, se o primeiro laptop da lista atender às especificações, o algoritmo terminará imediatamente. Contudo, isto é improvável na prática, e os casos médios e piores têm complexidade linear.
 
